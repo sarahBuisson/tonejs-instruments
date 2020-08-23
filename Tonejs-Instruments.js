@@ -5,7 +5,7 @@
 * https://github.com/nbrosowsky/tonejs-instruments
 */
 import Tone from 'tone'
-export var SampleLibrary = {
+ var SampleLibrary = {
     minify: false,
     ext: '.[mp3|ogg]', // use setExt to change the extensions on all files // do not change this variable //
     baseUrl: '/samples/',
@@ -644,3 +644,4 @@ export var SampleLibrary = {
 
 
 }
+module.exports = {SampleLibrary};
