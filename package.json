@@ -1,0 +1,29 @@
+{
+  "name": "tonejs-instruments",
+  "version": "1.0.0",
+  "description": "I've been playing around with audio samples and [Tone.js](https://tonejs.github.io/) but was finding it tedious to keep writing code to load the same instrument samples. So I decided to put together a little code that makes it easier for me to load the instruments and a repository for all the samples I'm using.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack Tonejs-Instruments.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahBuisson/tonejs-instruments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahBuisson/tonejs-instruments/issues"
+  },
+  "homepage": "https://github.com/sarahBuisson/tonejs-instruments#readme",
+  "dependencies": {
+    "nexusui": "^2.1.5",
+    "ngprogress": "^1.1.3",
+    "tone": "^14.7.39"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
